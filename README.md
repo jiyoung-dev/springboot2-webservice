@@ -9,9 +9,11 @@
 /.idea/
 ```
 
-## Git 관련 단축키 
+## 자주 사용하는 IntelliJ 단축키 
 - 깃 커밋창 열기: ctrl + k
 - 자동 push: ctrl + shift + k
+- 자동 import: alt + enter
+- 플러그인 Action 실행: ctrl + shift + a
 
 ## TDD는 Unit Test가 아니다 
 - TDD: 테스트가 주도하는 개발 
@@ -21,9 +23,6 @@
 > - 요청결과를 System.out.println() 으로 검증하지 않아도된다. 
 > - 새로운 기능이 추가될때, 기존의 기능이 잘 작동되는 것을 보장해준다.
 > - 대표적으로 xUnit 프레임워크가 존재, Java에서는 JUnit 사용.
-
-## Package 관련 단축키
-- 자동 import: alt + enter
 
 ## 내장 WAS 사용하기 
 ```java
