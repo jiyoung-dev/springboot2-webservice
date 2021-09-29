@@ -42,4 +42,16 @@ public class Application {
     - 이 어노테이션이 있는 위치부터 설정을 읽어간다. (스프링부트 자동설정, 스프링 Bean 읽기와 생성)
     - 해당 클래스는 항상 프로젝트 최상단에 위치함. 
 
+## 프로젝트에 롬복 추가하기 
+롬복은 자바 개발시 자주 사용하는 Getter, Setter, 생성자, toString 등을 어노테이션으로 자동 생성해준다. 
+<br>롬복은 프로젝트마다 설정해줘야한다.  
+```
+dependencies {
+    compile('org.projectlombok:lombok')
+}
+```
+- build.gradle에 위의 코드 추가 후, Refresh(새로고침)
+- Marketplace에서 "lombok" install 
+- Preferences에서 Enable annotation processing 체크
+
 
